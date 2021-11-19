@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "MyMangoApp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

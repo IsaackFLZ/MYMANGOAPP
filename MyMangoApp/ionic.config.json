@@ -1,0 +1,7 @@
+{
+  "name": "MyMangoApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
