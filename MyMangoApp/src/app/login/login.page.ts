@@ -20,7 +20,7 @@ export class LoginPage implements OnInit {
     this.formularioLogin = this.fb.group({
       'correo': new FormControl("",Validators.required),
       'password': new FormControl("",Validators.required)
-    })
+    });
 
    }
 
