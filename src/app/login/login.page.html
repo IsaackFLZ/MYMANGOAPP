@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button color="warning" slot="start">
+      <ion-back-button color="dark"></ion-back-button>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card-content class="contenedor">
+    <h1 id="titulo">Inciar Sesión</h1>
+
+    <ion-item id="input1">
+      <ion-label position="floating">Usuario</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+
+    <ion-item id="input2">
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+
+    <!-- <ion-item id="btn1"> -->
+    <ion-button color="warning" expand="block" size="default" id="btn1"
+      >Ingresar</ion-button
+    >
+    <br />
+    <!-- </ion-item> -->
+
+    <p id="text">¿No tienes una cuenta?</p>
+    <a href="./registro" rel="noopener noreferrer" id="link">Regístrate aquí</a>
+  </ion-card-content>
+  <img src="assets/img/manguito.png" id="imagen" />
+</ion-content>
