@@ -1,19 +1,48 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>registro</ion-title>
+    <ion-title></ion-title>
+    <ion-button color="warning" slot="start" id="btn1"> <ion-icon name="arrow-back-outline"></ion-icon></ion-button>
+ 
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-card>
     <ion-card-header>
-      <ion-card-title>Iniciar Sesión</ion-card-title>
+      <ion-card-title class="contenedor1">Registrarse</ion-card-title>
     </ion-card-header>
 
     <ion-card-content>
-      <br />
-      <h1>Bienvenido</h1>
-      <br />
+     <center>
+    <ion-item id="input1">
+      <ion-label position="floating">Usuario</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+
+    <ion-item id="input1">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+
+    <ion-item id="input1">
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </center>
     </ion-card-content>
+    
   </ion-card>
+<center>  <ion-button color="warning"  id="btn2"
+      >Registrar</ion-button>
+    </center>
+
+    <br />
+
+<!--</ion-item>-->
+<center>    <p id="text11">¿Ya tienes una cuenta?</p>
+    <a href="./login" rel="noopener noreferrer" id="link11">Inicia sesión aquí</a>
+  
+  </center>
+  <img src="assets/img/arbolito.jpeg" id="imagen11" />
+
 </ion-content>
